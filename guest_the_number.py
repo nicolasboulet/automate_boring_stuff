@@ -7,7 +7,7 @@ numberToGuess = random.randint(1, 10)
 for chances in range(1, 7):
   try: 
     if chances == 6:
-      print('You lose !!!')
+      print('You lose !!! im thinking of number ' + str(numberToGuess))
       break
     number = int(input())
     if number > numberToGuess:
